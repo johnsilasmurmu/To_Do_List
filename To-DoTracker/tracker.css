@@ -1,0 +1,30 @@
+*{
+    margin:none;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(227, 241, 227);
+}
+.heading{
+    display:flex;
+    justify-content: center;
+}
+
+input{
+    width: 50%;
+    height: 2.5rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 25%;
+}
+
+.addTask{
+    height: 2.8rem;
+    width: 2.8rem;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.taskText{
+    display: flex;
+}
