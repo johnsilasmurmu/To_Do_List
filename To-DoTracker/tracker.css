@@ -10,7 +10,7 @@ body{
     justify-content: center;
 }
 
-input{
+.adding{
     width: 50%;
     height: 2.5rem;
     border-top-left-radius: 15px;
@@ -25,6 +25,36 @@ input{
     border-bottom-right-radius: 15px;
 }
 
+h2{
+    text-align: center;
+}
+
 .taskText{
+    display: flexbox;
+}
+
+.containerDesign{
     display: flex;
+}
+.textBorderDesign{
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    width: 80%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.newcheckboxDesign{
+    margin-left: 0%;
+    height: 2.8rem;
+    width: 2.8rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.deleteButtonDesign{
+    width: 2.8rem;
+    height: 2.8rem;
 }
