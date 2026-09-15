@@ -1,5 +1,5 @@
 *{
-    margin:none;
+    margin:0;
     font-family: 'Times New Roman', Times, serif;
 }
 body{
@@ -44,6 +44,7 @@ h2{
     display: flex;
     align-items: center;
     margin-top: 2px;
+    
 }
 
 .newcheckboxDesign{
